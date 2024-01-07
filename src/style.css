@@ -1,17 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(136, 136, 247);
+    background: #cdcdf1;
     font: normal 15px Arial;
 }
 
 header {
-    color: white;
+    color: rgb(85, 78, 78);
     text-align: center;
+    padding: 5px;
 }
 
 section {
-    background: white;
+    background: #ababee;
     width: 400px;
     margin: auto;
     padding: 15px;
@@ -29,6 +30,10 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#form input, button {
+    margin: 1%;
 }
 
 footer {
