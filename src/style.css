@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(136, 136, 247);
+    font: normal 15px Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
