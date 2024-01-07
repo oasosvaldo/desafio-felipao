@@ -14,7 +14,13 @@
         <section>
             <h2>Preencha os campos abaixo!</h2>
             <div id="form">
-                <input type="text" id="txtNome" placeholder="Nome do Herói">
+                <select id="txtNome">
+                    <option value="">Selecione</option>
+                    <option value="Thor">Thor</option>
+                    <option value="Capitão América">Capitão América</option>
+                    <option value="Homem de Ferro">Homem de Ferro</option>
+                    <option value="Pantera Negra">Pantera Negra</option>
+                </select>
                 <input type="number" id="xp" placeholder="Experiência(XP)">
                 <button id="verificar" onclick="verificar()">Verificar</button>
             </div>
