@@ -3,28 +3,28 @@ function verificar() {
   let xp = document.getElementById('xp')
   let res = document.getElementById('res')
 
-  // menor que 1000 = Ferro
+  // menor ou igual a 1000 = Ferro
   if (nomeHeroi.value == 0 && xp.value == 0) {
     alert('[ERRO] Verifique os dados e tente novamente!')
   } else {
     let img = document.createElement('img')
     img.setAttribute('id', 'foto')
-    if (nomeHeroi.value === "Thor" && Number(xp.value) < 1000) {
+    if (nomeHeroi.value === "Thor" && Number(xp.value) <= 1000) {
       res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ferro"
       form.innerHTML = ""
       img.setAttribute('src', "./img/Thor.png")
     }
-    else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) < 1000) {
+    else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) <= 1000) {
       res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ferro"
       form.innerHTML = ""
       img.setAttribute('src', "./img/P_Negra.png")
     }
-    else if (nomeHeroi.value === "Capitão América" && Number(xp.value) < 1000) {
+    else if (nomeHeroi.value === "Capitão América" && Number(xp.value) <= 1000) {
       res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ferro"
       form.innerHTML = ""
       img.setAttribute('src', "./img/America.png")
     }
-    else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) < 1000) {
+    else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) <= 1000) {
       res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ferro"
       form.innerHTML = ""
       img.setAttribute('src', "./img/H_Ferro.png")
@@ -219,18 +219,9 @@ function verificar() {
 
 function resultado() {
   res.innerHTML = ''
+  document.getElementById('txtNome').focus()
 }
 
 function reload() {
   window.location.reload()
 }
-
-$('form').on('submit',function(e){
-  e.preventDefault();
-  var but = $(this).find('[type="submit"]').toggleClass('sending').blur();
-  
-  setTimeout(function(){
-     but.removeClass('sending').blur();
-  },4500);
-  
-})
