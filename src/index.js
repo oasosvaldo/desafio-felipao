@@ -11,18 +11,22 @@ function verificar() {
     img.setAttribute('id', 'foto')
     if (nomeHeroi.value === "Thor" && Number(xp.value) < 1000) {
       res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ferro"
+      form.innerHTML = ""
       img.setAttribute('src', "./img/Thor.png")
     }
     else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) < 1000) {
       res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ferro"
+      form.innerHTML = ""
       img.setAttribute('src', "./img/P_Negra.png")
     }
     else if (nomeHeroi.value === "Capitão América" && Number(xp.value) < 1000) {
       res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ferro"
+      form.innerHTML = ""
       img.setAttribute('src', "./img/America.png")
     }
     else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) < 1000) {
       res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ferro"
+      form.innerHTML = ""
       img.setAttribute('src', "./img/H_Ferro.png")
     }
 
@@ -33,18 +37,22 @@ function verificar() {
       img.setAttribute('id', 'foto')
       if (nomeHeroi.value === "Thor" && Number(xp.value) > 1000 && xp.value <= 2000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Bronze"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/Thor.png")
       }
       else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) > 1000 && xp.value <= 2000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Bronze"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/P_Negra.png")
       }
       else if (nomeHeroi.value === "Capitão América" && Number(xp.value) > 1000 && xp.value <= 2000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Bronze"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/America.png")
       }
       else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) > 1000 && xp.value <= 2000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Bronze"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/H_Ferro.png")
       }
     }
@@ -55,18 +63,22 @@ function verificar() {
       img.setAttribute('id', 'foto')
       if (nomeHeroi.value === "Thor" && Number(xp.value) > 2000 && xp.value <= 5000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Prata"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/Thor.png")
       }
       else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) > 2000 && xp.value <= 5000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Prata"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/P_Negra.png")
       }
       else if (nomeHeroi.value === "Capitão América" && Number(xp.value) > 2000 && xp.value <= 5000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Prata"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/America.png")
       }
       else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) > 2000 && xp.value <= 5000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Prata"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/H_Ferro.png")
       }
     }
@@ -77,18 +89,22 @@ function verificar() {
       img.setAttribute('id', 'foto')
       if (nomeHeroi.value === "Thor" && Number(xp.value) > 5000 && xp.value <= 7000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ouro"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/Thor.png")
       }
       else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) > 5000 && xp.value <= 7000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ouro"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/P_Negra.png")
       }
       else if (nomeHeroi.value === "Capitão América" && Number(xp.value) > 5000 && xp.value <= 7000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ouro"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/America.png")
       }
       else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) > 5000 && xp.value <= 7000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ouro"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/H_Ferro.png")
       }
     }
@@ -99,18 +115,22 @@ function verificar() {
       img.setAttribute('id', 'foto')
       if (nomeHeroi.value === "Thor" && Number(xp.value) > 7000 && xp.value <= 8000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Platina"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/Thor.png")
       }
       else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) > 7000 && xp.value <= 8000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Platina"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/P_Negra.png")
       }
       else if (nomeHeroi.value === "Capitão América" && Number(xp.value) > 7000 && xp.value <= 8000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Platina"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/America.png")
       }
       else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) > 7000 && xp.value <= 8000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Platina"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/H_Ferro.png")
       }
     }
@@ -121,18 +141,22 @@ function verificar() {
       img.setAttribute('id', 'foto')
       if (nomeHeroi.value === "Thor" && Number(xp.value) > 8000 && xp.value <= 9000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ascendente"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/Thor.png")
       }
       else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) > 8000 && xp.value <= 9000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ascendente"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/P_Negra.png")
       }
       else if (nomeHeroi.value === "Capitão América" && Number(xp.value) > 8000 && xp.value <= 9000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ascendente"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/America.png")
       }
       else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) > 8000 && xp.value <= 9000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Ascendente"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/H_Ferro.png")
       }
     }
@@ -143,18 +167,22 @@ function verificar() {
       img.setAttribute('id', 'foto')
       if (nomeHeroi.value === "Thor" && Number(xp.value) > 9000 && xp.value <= 10000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Imortal"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/Thor.png")
       }
       else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) > 9000 && xp.value <= 10000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Imortal"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/P_Negra.png")
       }
       else if (nomeHeroi.value === "Capitão América" && Number(xp.value) > 9000 && xp.value <= 10000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Imortal"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/America.png")
       }
       else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) > 9000 && xp.value <= 10000) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Imortal"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/H_Ferro.png")
       }
     }
@@ -165,18 +193,22 @@ function verificar() {
       img.setAttribute('id', 'foto')
       if (nomeHeroi.value === "Thor" && Number(xp.value) >= 10001) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Radiante"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/Thor.png")
       }
       else if (nomeHeroi.value === "Pantera Negra" && Number(xp.value) >= 10001) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Radiante"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/P_Negra.png")
       }
       else if (nomeHeroi.value === "Capitão América" && Number(xp.value) >= 10001) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Radiante"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/America.png")
       }
       else if (nomeHeroi.value === "Homem de Ferro" && Number(xp.value) >= 10001) {
         res.innerHTML = "O " + nomeHeroi.value + " está no nivel Radiante"
+        form.innerHTML = ""
         img.setAttribute('src', "./img/H_Ferro.png")
       }
     }
@@ -187,4 +219,8 @@ function verificar() {
 
 function resultado() {
   res.innerHTML = ''
+}
+
+function reload() {
+  window.location.reload()
 }
